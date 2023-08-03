@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
     <title>image editor</title>
 </head>
 <body>
@@ -13,17 +14,18 @@
             <div class="block-1">
                 <h3>Filters</h3>
                 <div class="filters">
-                    <div class="filter1 filter">Brightness</div>
-                    <div class="filter2 filter">Saturation</div>
-                    <div class="filter3 filter">Inversion</div>
-                    <div class="filter4 filter">Grayscale</div>
+                    <button id="brt">Saturation</button>
+                    <button  >Saturation</button>
+                    <button >Inversion</button>
+                    <button >Grayscale</button>
+
                 </div>
                 <div class="slider">
                     <div class="val">
-                        <span>Brightness</span>
+                        <span id ="edit_text">Brightness</span>
                         <span>50%</span>
                     </div>
-                    <input type="range" min="0" max="200">
+                    <input class= 'slider-bar' type="range" min="0" max="100">
                 </div>
                 <div class="rot">
                     <h3>Rotate & Flip</h3>
@@ -36,9 +38,17 @@
                 </div>
             </div>
             <div class="block-2">
-                <img src="Music_Icon.jpg" alt="">
+                <img src="placeholder-1.webp" alt="">
+            </div>
+        </div>
+        <div class="controls">
+            <button>Reset Filters</button>
+            <div class="other_btn">
+                <button class ='choose-image'>Choose Image</button>
+                <button class ='save-image'>Save Image</button>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

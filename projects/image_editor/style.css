@@ -51,11 +51,14 @@ h3 {
     
 }
 
-.filter {
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 4px;
+.filters button {
+    padding: 2px;
     margin: 4px;
+    height: 35px;
+    font-family: 'Poppins';
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-color: rgb(167, 242, 255);
 }
 
 img {
@@ -66,6 +69,7 @@ img {
 .slider {
     padding: 4px;
     margin-top: 10px;
+    
 }
 .val {
     display: flex;
@@ -73,8 +77,11 @@ img {
 
 }
 
-input {
-    max-width:100% ;
+.slider-bar {
+    width: 100%;
+    color: aqua;
+    background-color: aqua;
+    accent-color: rgb(178, 240, 7);
 }
 
 .tools {
@@ -84,7 +91,24 @@ input {
 }
 .tools img {
     max-width: 10%;
+    color: black;
+    fill: aqua;
 
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls button {
+    padding: 5px;
+    margin: 4px;
+    height: 35px;
+    font-family: 'Poppins';
+    background: rgb(2, 255, 200);
+    border-radius: 5px;
+    border-color: rgb(167, 242, 255);
 }
 
 
